@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 import joblib
 
 # Load data
-data = pd.read_csv('D:\Data Science Journey\Python DS\ML\calorie_project\dataframe.csv')
+data = pd.read_csv('dataframe.csv')
 X = data[['Gender', 'Age', 'Duration', 'Heart_Rate', 'Body_Temp', 'BMI']]
 y = data['Calories']
 
